@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кастомные элементы формы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form class="custom-form">
+            <fieldset class="form-fieldset">
+                <legend class="form-legend">Выберите ваши интересы</legend>
+                
+                <div class="form-group">
+                    <h3>Категории</h3>
+                    
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="travel" name="interests" value="travel">
+                        <label for="travel" class="custom-checkbox">
+                            Путешествия
+                        </label>
+                        
+                        <input type="checkbox" id="tech" name="interests" value="tech">
+                        <label for="tech" class="custom-checkbox">
+                            Технологии
+                        </label>
+                        
+                        <input type="checkbox" id="sports" name="interests" value="sports">
+                        <label for="sports" class="custom-checkbox">
+                            Спорт
+                        </label>
+                        
+                        <input type="checkbox" id="art" name="interests" value="art">
+                        <label for="art" class="custom-checkbox">
+                            Искусство
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <h3>Уровень опыта</h3>
+                    
+                    <div class="radio-group">
+                        <input type="radio" id="beginner" name="experience" value="beginner">
+                        <label for="beginner" class="custom-radio">
+                            Начинающий
+                        </label>
+                        
+                        <input type="radio" id="intermediate" name="experience" value="intermediate">
+                        <label for="intermediate" class="custom-radio">
+                            Продолжающий
+                        </label>
+                        
+                        <input type="radio" id="advanced" name="experience" value="advanced">
+                        <label for="advanced" class="custom-radio">
+                            Продвинутый
+                        </label>
+                        
+                        <input type="radio" id="expert" name="experience" value="expert">
+                        <label for="expert" class="custom-radio">
+                            Эксперт
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <h3>Дополнительные настройки</h3>
+                    
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="notifications" name="settings" value="notifications">
+                        <label for="notifications" class="custom-checkbox">
+                            Уведомления по email
+                        </label>
+                        
+                        <input type="checkbox" id="newsletter" name="settings" value="newsletter" checked>
+                        <label for="newsletter" class="custom-checkbox">
+                            Еженедельная рассылка
+                        </label>
+                        
+                        <input type="checkbox" id="privacy" name="settings" value="privacy">
+                        <label for="privacy" class="custom-checkbox">
+                            Строгий режим конфиденциальности
+                        </label>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                    Сохранить настройки
+                </button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
