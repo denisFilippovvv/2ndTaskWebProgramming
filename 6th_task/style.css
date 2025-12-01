@@ -19,7 +19,6 @@ body {
     padding: 20px;
 }
 
-/* Стили для header */
 .header {
     text-align: center;
     margin-bottom: 40px;
@@ -40,7 +39,6 @@ body {
     font-size: 1.2em;
 }
 
-/* Интерактивные элементы */
 .interactive-elements {
     background: rgba(255, 255, 255, 0.95);
     padding: 30px;
@@ -63,7 +61,6 @@ body {
     justify-content: center;
 }
 
-/* Стили кнопок */
 .btn {
     padding: 12px 24px;
     border: none;
@@ -75,7 +72,7 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #000000, #797979);
     color: white;
     cursor: pointer;
 }
@@ -100,28 +97,27 @@ body {
 }
 
 .btn-drag {
-    background: #48bb78;
+    background: #4852bb;
     color: white;
     cursor: grab;
 }
 
 .btn-drag:hover {
-    background: #38a169;
+    background: #607290;
     cursor: grabbing;
 }
 
 .btn-help {
-    background: #ed8936;
+    background: #3639ed;
     color: white;
     cursor: help;
 }
 
 .btn-help:hover {
-    background: #dd771c;
+    background: hwb(0 0% 100%);
     cursor: help;
 }
 
-/* Стили ссылок */
 .link {
     padding: 10px 20px;
     color: #667eea;
@@ -162,7 +158,6 @@ body {
     cursor: not-allowed;
 }
 
-/* Кастомные курсоры */
 .custom-cursors {
     margin-top: 30px;
 }
@@ -204,7 +199,6 @@ body {
     cursor: zoom-in;
 }
 
-/* Прокручиваемый контент */
 .scroll-content {
     background: rgba(255, 255, 255, 0.95);
     padding: 30px;
@@ -246,7 +240,6 @@ body {
     line-height: 1.7;
 }
 
-/* Кастомные скроллбары для Webkit-браузеров */
 .scroll-container::-webkit-scrollbar {
     width: 16px;
 }
@@ -275,13 +268,11 @@ body {
     background: #f1f5f9;
 }
 
-/* Стили для скроллбара в Firefox */
 .scroll-container {
     scrollbar-width: thin;
     scrollbar-color: #667eea #f1f5f9;
 }
 
-/* Кастомный скроллбар для всего документа */
 body::-webkit-scrollbar {
     width: 14px;
 }
@@ -300,7 +291,6 @@ body::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(135deg, #764ba2, #667eea);
 }
 
-/* Футер */
 .footer {
     text-align: center;
     padding: 20px;
@@ -309,7 +299,6 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 10px;
 }
 
-/* Дополнительные курсоры для специфичных элементов */
 input[type="text"], textarea {
     cursor: text;
 }
@@ -318,7 +307,6 @@ select {
     cursor: pointer;
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
     .container {
         padding: 10px;
@@ -367,7 +355,6 @@ select {
     }
 }
 
-/* Анимации */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -383,7 +370,6 @@ select {
     animation: fadeIn 0.6s ease-out;
 }
 
-/* Специфичные курсоры для разных состояний */
 .loading {
     cursor: progress;
 }
